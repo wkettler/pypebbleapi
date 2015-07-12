@@ -52,8 +52,8 @@ class Pin(_DictionableObject):
             id,
             time,
             duration=None,
-            create_notification=None,
-            update_notification=None,
+            createNotification=None,
+            updateNotification=None,
             layout=None,
             reminders=None,
             actions=None,
@@ -64,11 +64,11 @@ class Pin(_DictionableObject):
             if duration is not None:
                 self.duration = duration
 
-            if create_notification is not None:
-                self.create_notification = create_notification
+            if createNotification is not None:
+                self.createNotification = createNotification
 
-            if update_notification is not None:
-                self.update_notification = update_notification
+            if updateNotification is not None:
+                self.updateNotification = updateNotification
 
             if layout is not None:
                 self.layout = layout
