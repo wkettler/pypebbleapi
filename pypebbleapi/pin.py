@@ -99,9 +99,8 @@ class Pin(_DictionableObject):
         'CALENDAR_PIN': 'calendarPin',
         'GENERIC_REMINDER': 'genericReminder',
         'GENERIC_NOTIFICATION': 'genericNotification',
-        'COMM_NOTIFICATION': 'commNotification',
         'WEATHER_PIN': 'weatherPin',
-        'SPORTS_PIN': 'sportsPin',
+        'SPORTS_PIN': 'sportsPin'
     }
 
     action_type = {
