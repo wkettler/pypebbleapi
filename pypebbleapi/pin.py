@@ -107,6 +107,15 @@ class Pin(_DictionableObject):
         'OPEN_WATCH_APP': 'openWatchApp',
     }
 
+    color = {
+        'RED': '#FF0000',
+        'ORANGE': '#FFA500',
+        'YELLOW': '#FFFF00',
+        'GREEN': '#00FF00',
+        'BLUE': '#0000FF',
+        'PURPLE': '#551A8B'
+    }
+
     def __init__(self,
             id,
             time,
